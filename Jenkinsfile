@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('Build App'){
 			steps{
-				mvn packages
+				mvn package
 			}
 		}
 	}
